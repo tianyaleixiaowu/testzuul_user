@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-    @RequestMapping("user")
+    @RequestMapping("/")
     public String index() {
         return "hello，我来自User客户端";
     }
