@@ -8,6 +8,6 @@ public class UserController {
 
     @RequestMapping("/")
     public String index() {
-        return "hello，我来自User客户端";
+        return "hello，我来自User客户端，哈哈";
     }
 }
